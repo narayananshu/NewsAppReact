@@ -2,13 +2,10 @@ import React, { Component } from 'react'
 import NewsItem from './NewsItem'
 import propTypes from 'prop-types'
 
-
-
-
 export class News extends Component {
   static defaultProps ={
     country : "india",
-    pageSize : 5
+    pageSize : 8
   }
   static propTypes ={
     country : propTypes.string,
